@@ -129,7 +129,7 @@ function App() {
               <td>{elem.days}</td>
               <td>{elem.days_remaining}</td>
               <td onClick ={()=>{changeStatus(elem.id)}}id="status" style = {(elem.today_followed)?{backgroundColor:"green"}:{backgroundColor:"red"}}>{elem.today_followed}</td>
-              <td >{(elem.result)?`${elem.result}`:`Accomplished ${elem.accomplished} days`}</td>
+              <td >{(elem.result)?`${elem.result}`:`Accom. ${elem.accomplished} days`}</td>
               <td><button id = "delete" onClick = {()=>{deleteTask(elem.id)}}>X</button></td>
               </tr>
             })
