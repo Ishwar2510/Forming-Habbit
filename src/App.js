@@ -41,14 +41,13 @@ function App() {
     }
     setAppInfo(text)
     setData(userData)
-    if (data.length % 5 == 0) {
+    if (userData.length % 5 == 0) {
       setTimeout(() => {
         setDisplayAppInfo(false);
       }, 10000);
     } else {
       setDisplayAppInfo(false);
     }
-    
   },[])
 
   function changeHandler(e){
