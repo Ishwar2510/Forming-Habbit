@@ -21,7 +21,8 @@ function App() {
         }
         if(elem.today_date !== new Date().toLocaleDateString() && elem.days_remaining >0){
           elem.days_remaining = elem.days_remaining-1
-        }else{
+        }
+        if(elem.today_date !== new Date().toLocaleDateString() && elem.days_remaining <=0){
           let scoreObj = {
             "a" : "5 Excellent",
             "b" : "4 good ",
