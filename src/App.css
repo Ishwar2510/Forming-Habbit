@@ -12,6 +12,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
   overflow: scroll;
+  padding:10px;
 }
 
 .App-link {
@@ -22,11 +23,12 @@ p{
   padding: 50px;
 }
 td, th,table{
-  border : 1px solid greenyellow
+  border : 1px solid yellowgreen;
+  padding: 5px;
+  
 }
 table{
   border-collapse: collapse;
-  
 }
 #delete{
  width: 100%;
@@ -34,7 +36,6 @@ table{
  display: block;
  background-color:crimson;
  border:none;
- 
 }
 #status:hover{
   cursor: pointer;
