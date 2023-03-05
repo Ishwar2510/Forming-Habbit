@@ -37,6 +37,7 @@ function App() {
             elem.result = scoreObj.c
           }
         }
+        elem.today_date = new Date().toLocaleDateString()
         return elem
       })
     }
